@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Seja um anfitrião</title>
+
+    <script src="https://kit.fontawesome.com/163fceead7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light" style="background-color: #F2ECE2;">
+        <a class="navbar-brand mt-2" href="/">
+            <img src="imagens/logoSejaUmAnfitriao.png" width="60" height="55" alt="">
+        </a>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid" style="background-color: #F2ECE2;">
+        <div class="d-none d-xl-block container mb-5">
+            <div class="row">
+                <div class="col-4">
+
+                    <h5 class=" font-weight-bold mb-4 ">CONFIRA O QUE É POSSÍVEL</h5>
+
+                    <h1 class=" font-weight-bold ">
+                        Ganhe até <span style="color: #E41E57;">R$2.618</span> por mês hospedando em Rio de Janeiro
+                    </h1>
+                </div>
+                <div class="col-6 ml-5 mr-0">
+                    /COMEÇO
+                    <div class="jumbotron bg-white">
+                        <form>
+                            <div class="form-group">
+                                <label for="localizacao">Onde fica sua acomodação?</label>
+                                <input type="text" name="local" class="form-control" id="localizacao"
+                                    placeholder="Ex: Rio de Janeiro">
+                                <div class="invalid-feedback">
+                                    Este campo deve ser informado
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="formGroupExampleInput2">Que tipo de espaço você tem?</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="espaco" value="lugar-inteiro"
+                                        id="lugarInteiro" value="lugar-inteiro" checked>
+                                    <label class="form-check-label" for="lugarInteiro">
+                                        Lugar inteiro
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="espaco" value="quarto-inteiro"
+                                        id="quartoInteiro" value="quarto-inteiro">
+                                    <label class="form-check-label" for="quartoInteiro">
+                                        Quarto inteiro
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="espaco" id="quartoCompartilhado"
+                                        value="quarto-compartilhado">
+                                    <label class="form-check-label" for="quartoCompartilhado">
+                                        Quarto compartilhado
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="hospedes">Quantos hóspedes seu espaço pode
+                                    acomodar?</label>
+                                <select class="form-control" name="hospedes" id="hospedes">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Sua acomodação possui algum diferencial?</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="servico-limpeza"
+                                        id="servicoLimpeza" name="limpeza">
+                                    <label class="form-check-label" for="servicoLimpeza">
+                                        Serviço de limpeza
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="garagem" id="garagem"
+                                        name="garagem">
+                                    <label class="form-check-label" for="garagem">
+                                        Garagem
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="seguranca" id="seguranca"
+                                        name="seguranca">
+                                    <label class="form-check-label" for="seguranca">
+                                        Fica em um condomínio com segurança privada
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="button" id="botao-enviar" class="btn btn-primary">Comece já</button>
+                        </form>
+                    </div>
+                    //FIM
+                </div>
+            </div>
+        </div>
+
+        <div class="d-block d-xl-none container mb-5">
+            <div>
+                <h5 class=" font-weight-bold mb-4 ">CONFIRA O QUE É POSSÍVEL</h5>
+
+                <h1 class=" font-weight-bold ">
+                    Ganhe até <span style="color: #E41E57;">R$2.618</span> por mês hospedando em Rio de Janeiro
+                </h1>
+                //COMEÇO 2
+                <div class="jumbotron bg-white">
+                    <form>
+                        <div class="form-group">
+                            <label for="localizacao2">Onde fica sua acomodação?</label>
+                            <input type="text" class="form-control" id="localizacao2" name="local"
+                                placeholder="Ex: Rio de Janeiro">
+                            <div class="invalid-feedback">
+                                Este campo deve ser informado
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">Que tipo de espaço você tem?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="espaco" id="lugarInteiro2"
+                                    value="lugar-inteiro" checked>
+                                <label class="form-check-label" for="lugarInteiro2">
+                                    Lugar inteiro
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="espaco" id="quartoInteiro2"
+                                    value="quarto-inteiro">
+                                <label class="form-check-label" for="quartoInteiro2">
+                                    Quarto inteiro
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="espaco" id="quartoCompartilhado2"
+                                    value="quarto-compartilhado">
+                                <label class="form-check-label" for="quartoCompartilhado2">
+                                    Quarto compartilhado
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="hospedes">Quantos hóspedes seu espaço pode
+                                acomodar?</label>
+                            <select class="form-control" name="hospedes" id="hospedes2">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Sua acomodação possui algum diferencial?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="servico-limpeza"
+                                    id="servicoLimpeza2" name="limpeza">
+                                <label class="form-check-label" for="servicoLimpeza2">
+                                    Serviço de limpeza
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="garagem" id="garagem2"
+                                    name="garagem">
+                                <label class="form-check-label" for="garagem2">
+                                    Garagem
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="seguranca" id="seguranca2"
+                                    name="seguranca">
+                                <label class="form-check-label" for="seguranca2">
+                                    Fica em um condomínio com segurança privada
+                                </label>
+                            </div>
+                        </div>
+                        <button type="button" id="botao-enviar2" class="btn btn-primary">Comece já</button>
+                    </form>
+                </div>
+                // FIM 2
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid bg-white" style="margin-bottom: 0;">
+        <div class="container d-none d-md-block">
+            <h1 class="font-weight-bold">Como funciona a hospedagem</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="card border-white">
+                        <img src="imagens/paisagem-pequena.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text font-weight-bold">Escolha seus requisitos</p>
+                            <p class="card-subtitle">Decida quantas pessoas podem se hospedar e por quanto tempo. Defina
+                                as Regras da Casa que os hóspedes devem seguir no
+                                seu espaço.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-white">
+                        <img src="imagens/paisagem-pequena.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text font-weight-bold">Decida quando hospedar</p>
+                            <p class="card-subtitle">Bloqueie datas no calendário sempre que quiser; não existe um tempo
+                                mínimo de disponibilidade para seu espaço.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-white">
+                        <img src="imagens/paisagem-pequena.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text font-weight-bold">Defina seus próprios preços</p>
+                            <p class="card-subtitle">O valor que você cobra só depende de você. Nossas ferramentas e
+                                informações podem ajudar a definir preços por noite
+                                competitivos para sua região.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-md-none">
+            <h1 class="font-weight-bold">Como funciona a hospedagem</h1>
+            <div>
+                <div class="col">
+                    <div class="card border-white">
+                        <img src="imagens/paisagem-pequena.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text font-weight-bold">Escolha seus requisitos</p>
+                            <p class="card-subtitle">Decida quantas pessoas podem se hospedar e por quanto tempo. Defina
+                                as Regras da Casa que os hóspedes devem seguir no
+                                seu espaço.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-white">
+                        <img src="imagens/paisagem-pequena.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text font-weight-bold">Decida quando hospedar</p>
+                            <p class="card-subtitle">Bloqueie datas no calendário sempre que quiser; não existe um tempo
+                                mínimo de disponibilidade para seu espaço.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-white">
+                        <img src="imagens/paisagem-pequena.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text font-weight-bold">Defina seus próprios preços</p>
+                            <p class="card-subtitle">O valor que você cobra só depende de você. Nossas ferramentas e
+                                informações podem ajudar a definir preços por noite
+                                competitivos para sua região.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid" style="margin-bottom: 0; background-color: #F7F7F7;">
+        <div class="container">
+            <div class="container">
+                <div class="flex-row d-sm-inline-flex">
+                    <div class="col mb-5 mb-md-0">
+                        <ul class="font-weight-bold text-dark">
+                            SOBRE
+                        </ul>
+                        <ul>
+                            <p>
+                                <a href="/" class="text-dark">Como funciona o Airbnb</a>
+                            </p>
+                            <p>
+                                <a href="/" class="text-dark">Newsroom</a>
+                            </p>
+                            <p>
+                                <a href="/" class="text-dark">Investidores</a>
+                            </p>
+                            <p>
+                                <a href="/" class="text-dark">Airbnb Plus</a>
+                            </p>
+                        </ul>
+                    </div>
+                    <div class="col mb-5 mb-md-0">
+                        <ul class="font-weight-bold text-dark">
+                            COMUNIDADE
+                        </ul>
+                        <ul>
+                            <p>
+                                <a href="/" class="text-dark">Diversidade e pertencimento</a>
+                            </p>
+                            <p>
+                                <a href="/" class="text-dark">Acessibilidade</a>
+                            </p>
+                            <p>
+                                <a href="/" class="text-dark">Associados do Airbnb</a>
+                            </p>
+                            <p>
+                                <a href="/" class="text-dark">Convide amigos</a>
+                            </p>
+                        </ul>
+                    </div>
+                    <div class="col mb-5 mb-md-0">
+                        <ul class="font-weight-bold text-dark">
+                            ANFITRIÃO
+                        </ul>
+                        <ul>
+                            <p>
+                                <a href="/" class="text-dark">Hospede em sua acomodação</a>
+                            </p>
+                            <p>
+                                <a href="/" class="text-dark">Ofereça uma experiência online</a>
+                            </p>
+                            <p>
+                                <a href="/" class="text-dark">Ofereça uma experiência</a>
+                            </p>
+                            <p>
+                                <a href="/" class="text-dark">Hospedagem responsável</a>
+                            </p>
+                        </ul>
+                    </div>
+                    <div class="col mb-5 mb-md-0">
+                        <ul class="font-weight-bold text-dark">
+                            ATENDIMENTO
+                        </ul>
+                        <ul>
+                            <p>
+                                <a href="/" class="text-dark">Nossa resposta à pandemia de COVID-19</a>
+                            </p>
+                            <p>
+                                <a href="/" class="text-dark">Central de Ajuda</a>
+                            </p>
+                            <p>
+                                <a href="/" class="text-dark">Opções de cancelamento</a>
+                            </p>
+                            <p>
+                                <a href="/" class="text-dark">Atendimento ao Bairro</a>
+                            </p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="/script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+.navbar {
+    padding: 0px 1rem;
+}
+
+.dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+#principal {
+    height: 500px;
+    background-image: url(imagens/camping-feature.jpg);
+    background-size: cover;
+}
+
+#principal h1 {
+    max-width: 400px;
+    margin-bottom: 50px;
+}
